@@ -1,0 +1,20 @@
+{
+"nodes": [
+{"id": "Martha", "group":1},
+{"id": "Paolo", "group":1},
+{"id": "Pedro", "group":1},
+{"id": "Camilia", "group":1},
+{"id": "Matematicas", "group":2},
+{"id": "Geometria", "group":2},
+{"id": "Fisica", "group":3},
+{"id": "Quimica", "group":3}
+],
+"links": [
+{"source": "Martha", "target": "Matemáticas", "value": 20},
+{"source": "Martha", "target": "Geometria", "value": 20},
+{"source": "Paolo", "target": "Geometria", "value": 20},
+{"source": "Paolo", "target": "Fisica", "value": 20},
+{"source": "Paolo", "target": "Quimica", "value": 20}
+
+]
+}
